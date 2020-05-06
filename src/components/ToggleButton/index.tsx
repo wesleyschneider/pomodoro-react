@@ -1,13 +1,25 @@
 import React, { useContext } from 'react';
-
+import { IconBase, IconType } from 'react-icons';
 import { ThemeContext } from 'styled-components';
 
 import { Container } from './styles';
 
-function ToggleButton({ checked, IconChecked, IconUnchecked, onChange }) {
+interface ToggleProps {
+  checked: boolean;
+  IconChecked: IconType;
+  IconUnchecked: IconType;
+  onChange: () => void;
+}
+
+const ToggleButton: React.FC<ToggleProps> = ({
+  checked,
+  IconChecked,
+  IconUnchecked,
+  onChange,
+}) => {
   const { colors } = useContext(ThemeContext);
   return (
-    <Container type="button" onClick={onChange} checked={checked}>
+    <Container type="button" onClick={onChange}>
       {checked ? (
         <IconChecked size={30} color={colors.text} />
       ) : (
@@ -15,6 +27,6 @@ function ToggleButton({ checked, IconChecked, IconUnchecked, onChange }) {
       )}
     </Container>
   );
-}
+};
 
 export default ToggleButton;
