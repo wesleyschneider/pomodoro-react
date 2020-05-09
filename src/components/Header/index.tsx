@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import {
   IoMdVolumeHigh,
   IoMdVolumeOff,
@@ -6,15 +6,20 @@ import {
   IoIosMoon,
 } from 'react-icons/io';
 import { ThemeContext } from 'styled-components';
+import { Howler } from 'howler';
 
 import { Container } from './styles';
 
 import ToggleButton from '../ToggleButton';
 
-function Header() {
+const Header: React.FC = () => {
   const { title, toggleTheme } = useContext(ThemeContext);
 
   const [volume, setVolume] = useState(true);
+
+  useEffect(() => {
+    Howler.volume(volume ? 1.0 : 0);
+  }, [volume]);
 
   return (
     <Container>
@@ -22,7 +27,9 @@ function Header() {
         checked={volume}
         IconChecked={IoMdVolumeHigh}
         IconUnchecked={IoMdVolumeOff}
-        onChange={() => setVolume(!volume)}
+        onChange={(): void => {
+          setVolume(!volume);
+        }}
       />
 
       <h1>Pomodoro</h1>
@@ -35,6 +42,6 @@ function Header() {
       />
     </Container>
   );
-}
+};
 
 export default Header;
