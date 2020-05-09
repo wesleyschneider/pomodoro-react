@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext, ButtonHTMLAttributes } from 'react';
 import { IconType } from 'react-icons';
 import { ThemeContext } from 'styled-components';
 
 import { Container } from './styles';
 
-interface ToggleProps {
+interface ToggleProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   checked: boolean;
   IconChecked: IconType;
   IconUnchecked: IconType;
