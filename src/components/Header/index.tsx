@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         }}
       />
 
-      <h1>Pomodoro</h1>
+      <h1>⏱ Pomodoro</h1>
 
       <ToggleButton
         checked={title === 'dark'}

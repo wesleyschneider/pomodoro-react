@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, useContext } from 'react';
 import { subSeconds, differenceInSeconds } from 'date-fns';
 import { Howl } from 'howler';
 import { ThemeContext } from 'styled-components';
-import { IoIosPlay, IoIosPause, IoIosClose } from 'react-icons/io';
+import { IoIosPlay, IoIosPause, IoMdRefresh } from 'react-icons/io';
 
 import usePersistedState from '../../utils/usePersistedState';
 import formatTimeDisplay from '../../utils/formatTimeDisplay';
@@ -108,7 +108,7 @@ const Main: React.FC = () => {
       </Content>
       <Buttons>
         <Button type="button" disabled={reseted || started} onClick={reset}>
-          <IoIosClose size={30} color={colors.text} />
+          <IoMdRefresh size={30} color={colors.text} />
         </Button>
         <ToggleButton
           checked={!started}
