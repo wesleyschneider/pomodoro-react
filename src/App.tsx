@@ -12,10 +12,10 @@ import GlobalTheme from './styles/global';
 import Header from './components/Header';
 import Routes from './routes';
 
-export default function App() {
+const App: React.FC = () => {
   const [theme, setTheme] = usePersistedState('theme', light);
 
-  const toggleTheme = () => {
+  const toggleTheme = (): void => {
     setTheme(theme.title === 'light' ? dark : light);
   };
 
@@ -28,4 +28,6 @@ export default function App() {
       </Router>
     </ThemeProvider>
   );
-}
+};
+
+export default App;
