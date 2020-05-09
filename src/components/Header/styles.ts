@@ -8,6 +8,6 @@ export const Container = styled.div`
   justify-content: space-evenly;
 
   h1 {
-    font-weight: 200;
+    font-weight: 800;
   }
 `;
