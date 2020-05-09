@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
   *{
     margin: 0;
     padding: 0;
@@ -16,9 +15,12 @@ export default createGlobalStyle`
   }
   body{
     -webkit-font-smoothing: antialiased;
-    font: 14px 'Raleway', sans-serif;
-    background: ${({ theme }) => theme.colors.background};
-    color: ${({ theme }) => theme.colors.text};
+    font: 14px 'Nunito', sans-serif;
+    background: ${({ theme }): string => theme.colors.background};
+    background: linear-gradient(149deg, ${({ theme }): string =>
+      theme.colors.backgroundSecundary} 0%, ${({ theme }): string =>
+  theme.colors.background} 50%);
+    color: ${({ theme }): string => theme.colors.text};
   }
   button{
     cursor: pointer;

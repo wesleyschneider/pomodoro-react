@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { IconBase, IconType } from 'react-icons';
+import { IconType } from 'react-icons';
 import { ThemeContext } from 'styled-components';
 
 import { Container } from './styles';
