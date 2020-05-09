@@ -11,9 +11,9 @@ export default createGlobalStyle`
     outline: 0;
   }
   html, body, #root{
-    height: 100%;
+    height: auto;
   }
-  body{
+  body #root{
     -webkit-font-smoothing: antialiased;
     font: 14px 'Nunito', sans-serif;
     background: ${({ theme }): string => theme.colors.background};
