@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 60px 0;
+  padding: 40px 0;
   color: ${({ theme }): string => theme.colors.primary};
   display: flex;
   align-items: center;
