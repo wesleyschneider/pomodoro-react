@@ -2,11 +2,11 @@ export default {
   title: 'light',
 
   colors: {
-    primary: '#F96068',
+    primary: '#ed3740',
     secundary: '#6245EB',
 
-    background: '#FDFDFD',
-    backgroundSecundary: '#E4E4E4',
+    background: '#E4E4E4',
+    backgroundSecundary: '#c9c9c9',
     text: '#333333',
   },
 };
