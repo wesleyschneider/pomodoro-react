@@ -99,6 +99,11 @@ const Main: React.FC = () => {
     }
   }, [setIsTimeBreak, stop, time, timeInitial]);
 
+  useEffect(() => {
+    const title = `${isTimeBreak ? 'BREAK ' : ' '}(${timeDisplay}) `;
+    document.title = `${title}Pomodoro`;
+  }, [isTimeBreak, timeDisplay]);
+
   return (
     <Container>
       <Content>
