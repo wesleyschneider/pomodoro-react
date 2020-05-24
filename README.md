@@ -12,7 +12,7 @@
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wesleyschneider/pomodoro-react.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wesleyschneider/react-rocketshoes.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wesleyschneider/pomodoro-react.svg">
 
   <a href="https://www.codacy.com/app/wesleyschneider/pomodoro-react?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wesleyschneider/pomodoro-react&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/28593c197db8499eae05f081ccc314d7.svg">
