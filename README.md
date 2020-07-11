@@ -4,23 +4,23 @@
 </h1>
 
 <h4 align="center">
-   Pomodoro clock in React and TypeScript.
+   Pomodoro clock in ReactJS and TypeScript.
    <br />
    <a href="https://wesleyschneider-pomodoro.netlify.app/" target="_blank">Live Demo</a>
 </h4>
 <h5 align="center">Design inspired by neomorphism</h5>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wesleyschneider/pomodoro-react.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/wesleyschneider/pomodoro.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wesleyschneider/pomodoro-react.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wesleyschneider/pomodoro.svg">
 
-  <a href="https://www.codacy.com/app/wesleyschneider/pomodoro-react?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wesleyschneider/pomodoro-react&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/app/wesleyschneider/pomodoro?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wesleyschneider/pomodoro&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/28593c197db8499eae05f081ccc314d7.svg">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wesleyschneider/pomodoro-react.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wesleyschneider/pomodoro.svg">
   
-  <img alt="GitHub" src="https://img.shields.io/github/license/wesleyschneider/pomodoro-react.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/wesleyschneider/pomodoro.svg">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-<img alt="App screenshot" src="https://raw.githubusercontent.com/wesleyschneider/pomodoro-react/master/assets/app.gif" />
+<img alt="App screenshot" src="https://raw.githubusercontent.com/wesleyschneider/pomodoro/master/assets/app.gif" />
 </p>
 
 ## :rocket: Technologies
@@ -53,10 +53,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/wesleyschneider/pomodoro-react
+$ git clone https://github.com/wesleyschneider/pomodoro
 
 # Go into the repository
-$ cd pomodoro-react
+$ cd pomodoro
 
 # Install dependencies
 $ yarn install
@@ -66,7 +66,7 @@ $ yarn start
 ```
 
 ## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/wesleyschneider/pomodoro-react/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/wesleyschneider/pomodoro/blob/master/LICENSE) for more information.
 
 ---
 
